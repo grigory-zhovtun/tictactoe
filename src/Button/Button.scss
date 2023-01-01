@@ -1,0 +1,28 @@
+@import "./../style/variables";
+
+.Button {
+  width: 23.5rem;
+
+  border: 1px solid #FFFFFF;
+  border-radius: 1.5rem;
+
+  color: #FFFFFF;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4.4rem;
+
+  padding: 2.2rem 6.3rem;
+
+  &:hover {
+    box-shadow: $shadow;
+  }
+  &:active {
+    background: rgba(120, 134, 255, 0.5);
+    box-shadow: $shadow;
+  }
+}

@@ -1,0 +1,18 @@
+@import "./../style/variables";
+
+.GameBoard {
+  width: 50.4rem;
+  height: 50.4rem;
+
+  border: 5px solid #FFFFFF;
+  box-shadow: $shadow;
+  border-radius: 15px;
+
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-template-rows: 10rem 10rem 10rem;
+  grid-gap: 1.3rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
